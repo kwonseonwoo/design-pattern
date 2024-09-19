@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: demo
+  profiles:
+    active: local
+
+server:
+  port: 8080
+  servlet:
+    context-path: /
+  tomcat:
+    uri-encoding: UTF-8
+    threads:
+      max: 200
+    connection-timeout: 50000
+  shutdown: graceful
