@@ -1,5 +1,8 @@
 package com.example.demo.designPattern.proxy;
 
+import lombok.Getter;
+
+@Getter
 public enum Bread {
 
     소보로빵("소보로빵", 3000, "땅콩 소보로빵 입니다."),
